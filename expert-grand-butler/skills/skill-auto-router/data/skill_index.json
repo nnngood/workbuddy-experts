@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-11-24 20:21:14",
+  "roots": [
+    "/workspace/.workbuddy/skills",
+    "/root/.workbuddy/skills",
+    "/root/.workbuddy/connectors/skills",
+    "/root/.workbuddy/plugins/skills",
+    "/root/.workbuddy/plugins/cache",
+    "/root/AppData/Local/Programs/WorkBuddy/resources/app.asar.unpacked/resources/plugins"
+  ],
+  "count": 0,
+  "by_layer": {},
+  "errors": [],
+  "skills": []
+}

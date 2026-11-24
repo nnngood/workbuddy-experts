@@ -1,0 +1,42 @@
+{
+  "name": "expert-grand-butler",
+  "version": "1.0.0",
+  "description": "A skill-dispatch butler: parses each task, then picks the best free, community-verified skills and orchestrates them into a delivery pipeline.",
+  "author": {
+    "name": "WorkBuddy 用户",
+    "email": "user@example.com"
+  },
+  "agents": ["./agents/grand-butler.md"],
+  "expertType": "agent",
+  "agentName": "grand-butler",
+  "displayName": {
+    "en": "Grand Butler",
+    "zh": "专家大掌柜"
+  },
+  "profession": {
+    "en": "Skill Dispatch Butler",
+    "zh": "技能调度大掌柜"
+  },
+  "displayDescription": {
+    "en": "You assign the task, the butler assigns the skills. It reads your needs, picks the best free and proven skills, orchestrates them into a pipeline and verifies the result — the more you use it, the sharper it gets.",
+    "zh": "你派活，掌柜派技能。读懂需求，从免费且验证好用的技能中挑出最佳组合，排流水线执行并验收，越用越准。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我有个任务：___。帮我挑一套免费又好用的技能来做。",
+    "en": "I have a task: ___. Pick a set of free and proven skills to handle it."
+  },
+  "plugin": "expert-grand-butler",
+  "tags": [
+    { "en": "Skill Dispatch", "zh": "技能调度" },
+    { "en": "Task Routing", "zh": "任务解析" },
+    { "en": "Free & Proven", "zh": "免费优选" }
+  ],
+  "quickPrompts": [
+    { "en": "I have a task: ___. Pick a set of free and proven skills to handle it.", "zh": "我有个任务：___。帮我挑一套免费又好用的技能来做。" },
+    { "en": "Which skills should handle this? Prefer proven, widely-used combos.", "zh": "这个需求该派哪些技能上？要大家用得多、验证过的成熟组合。" },
+    { "en": "Check memory: which skill combo worked best for this kind of task?", "zh": "查一下记忆，我这类任务以前用哪套技能最顺手？" }
+  ],
+  "skills": ["./skills/skill-auto-router"]
+}
