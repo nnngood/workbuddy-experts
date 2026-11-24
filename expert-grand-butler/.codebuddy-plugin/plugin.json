@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A skill-dispatch butler: parses each task, then picks the best free, community-verified skills and orchestrates them into a delivery pipeline.",
   "author": {
-    "name": "WorkBuddy 用户",
-    "email": "user@example.com"
+    "name": "张子卓",
+    "email": "526414751@qq.com"
   },
   "agents": ["./agents/grand-butler.md"],
   "expertType": "agent",
